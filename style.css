@@ -1,0 +1,53 @@
+html{
+	font-family: "open sans", calibri;
+	margin: 0 auto;
+	font-size: 18pt;
+}
+.has-guts{
+	margin-right: 100px; 
+	margin-left: 100px;
+}
+.container{
+	display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   -webkit-align-content: flex-end;
+   align-content: flex-end;
+}
+.box{
+	margin: 0 auto;
+	padding: 35px;
+}
+.border{
+	border-top-color: black;
+	border-top-width: 5px;
+}
+.text-right{
+	text-align: right;		
+}
+.bold{
+	font-weight: bold;
+}
+footer{
+	font-size: 11pt;
+	text-align: center;
+}
+.header{
+	margin: 0px auto;
+	text-align: justify;
+}
+.border{
+		border-top: 1px solid #AAAAAA;
+}
+a{
+	text-decoration: none;
+}
